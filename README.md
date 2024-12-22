@@ -20,8 +20,11 @@ Version description:
 **Version 19:** only using model 1 (described below) but ensemble is equal to weighted average. Score 0.403 public/0.458 private.
 
 **Version 20:** has model 1, model 2, model 3
+  
   Model 1 is still the model of version 18 but: uses time series, uses Season columns, uses voting regressor to ensemble, the objective function is Total then converted to sii
+  
   Model 2: still uses 3 algorithms lgbm, xgb, catboost. No time series data, Season columns are used, the objective function is Total then converted to sii, using voting regressor combined with stacking (nested ensemble)
+  
   Model 3: using additional Random Forest, Gradient Boost, learning sii directly, using time series data, removing Season data -> however, this model has not been tested for performance due to no more     submissions.
 
 **Version 22: only using model 2, this is the version with the highest score. Score 0.405 public/0.460 private.**
