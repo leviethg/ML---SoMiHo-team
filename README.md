@@ -23,7 +23,7 @@ Version description:
   
   Model 1 is still the model of version 18 but: uses time series, uses Season columns, uses voting regressor to ensemble, the objective function is Total then converted to sii
   
-  Model 2: still uses 3 algorithms lgbm, xgb, catboost. No time series data, Season columns are used, the objective function is Total then converted to sii, using voting regressor combined with stacking (nested ensemble)
+  Model 2: still uses 3 algorithms lgbm, xgb, catboost. No time series data, but Season columns are used, the objective function is Total then converted to sii, using voting regressor combined with stacking (nested ensemble)
   
   Model 3: using additional Random Forest, Gradient Boost, learning sii directly, using time series data, removing Season data -> however, this model has not been tested for performance due to no more     submissions.
 
