@@ -28,3 +28,4 @@ Version description:
   Model 3: using additional Random Forest, Gradient Boost, learning sii directly, using time series data, removing Season data -> however, this model has not been tested for performance due to no more     submissions.
 
 **Version 22: only using model 2, this is the version with the highest score. Score 0.405 public/0.460 private.**
+https://www.kaggle.com/code/lvhoangg2004/notebookeb19475bf7?scriptVersionId=213890303
