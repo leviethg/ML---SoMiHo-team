@@ -2,7 +2,7 @@
 Here is a presentation of a process of researching, approaching and solving the Child Mind Institute — Problematic Internet Use - a machine learning competition on the Kaggle platform.
 https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-use.
 
-This is our first time participating in a kaggle competition so we were quite surprised to see ourselves ranked 58th in the private leaderboard.
+This is our first time participating in a Kaggle competition so we were quite surprised to see ourselves ranked 58th in the private leaderboard.
 
 Version description:
 
